@@ -113,8 +113,8 @@ const COLORS: Record<string, ColorDef> = {
 const productDefs: ProductDef[] = [
   // ─── MEN > T-SHIRTS ─────────────────────────────
   {
-    name: "Allen Solly Premium Cotton T-Shirt",
-    brand: "Allen Solly",
+    name: "UrbanThread Premium Cotton T-Shirt",
+    brand: "UrbanThread",
     price: 899,
     compareAtPrice: 1299,
     categorySlug: "men",
@@ -122,15 +122,15 @@ const productDefs: ProductDef[] = [
     material: "100% Combed Cotton",
     careInstructions: "Machine wash cold. Do not bleach. Tumble dry low.",
     description:
-      "Crafted from premium combed cotton, this Allen Solly t-shirt offers unbeatable comfort for everyday wear. The classic round neck and relaxed fit make it perfect for casual outings, weekend brunches, or just lounging at home. The fabric is pre-shrunk and retains its shape wash after wash.",
+      "Crafted from premium combed cotton, this UrbanThread t-shirt offers unbeatable comfort for everyday wear. The classic round neck and relaxed fit make it perfect for casual outings, weekend brunches, or just lounging at home. The fabric is pre-shrunk and retains its shape wash after wash.",
     shortDescription: "Premium cotton tee with a classic fit for everyday comfort.",
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [COLORS.Navy, COLORS.White, COLORS.Olive],
     isFeatured: true,
   },
   {
-    name: "UCB Graphic Print T-Shirt",
-    brand: "UCB",
+    name: "UrbanCasual Graphic Print T-Shirt",
+    brand: "UrbanCasual",
     price: 799,
     compareAtPrice: null,
     categorySlug: "men",
@@ -138,15 +138,15 @@ const productDefs: ProductDef[] = [
     material: "Cotton Blend",
     careInstructions: "Machine wash cold. Wash inside out.",
     description:
-      "Make a statement with this bold graphic print t-shirt from United Colors of Benetton. Featuring a contemporary print on soft cotton blend fabric, this tee pairs perfectly with jeans or chinos for a casual, trendy look.",
+      "Make a statement with this bold graphic print t-shirt from UrbanCasual. Featuring a contemporary print on soft cotton blend fabric, this tee pairs perfectly with jeans or chinos for a casual, trendy look.",
     shortDescription: "Bold graphic tee for a casual, trendy look.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Black, COLORS.White, COLORS.Grey],
     isFeatured: false,
   },
   {
-    name: "H&M Oversized Cotton T-Shirt",
-    brand: "H&M",
+    name: "TrendSet Oversized Cotton T-Shirt",
+    brand: "TrendSet",
     price: 699,
     compareAtPrice: 999,
     categorySlug: "men",
@@ -154,7 +154,7 @@ const productDefs: ProductDef[] = [
     material: "100% Organic Cotton",
     careInstructions: "Machine wash at 40°C. Iron on medium heat.",
     description:
-      "This oversized t-shirt from H&M is made with organic cotton for a soft, breathable feel. The dropped shoulders and relaxed fit give it a modern streetwear vibe. Perfect for layering or wearing on its own.",
+      "This oversized t-shirt from TrendSet is made with organic cotton for a soft, breathable feel. The dropped shoulders and relaxed fit give it a modern streetwear vibe. Perfect for layering or wearing on its own.",
     shortDescription: "Organic cotton oversized tee with a modern streetwear vibe.",
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [COLORS.Beige, COLORS.Black, COLORS.SkyBlue],
@@ -162,8 +162,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── MEN > SHIRTS ────────────────────────────────
   {
-    name: "Peter England Formal Check Shirt",
-    brand: "Peter England",
+    name: "FormalFit Formal Check Shirt",
+    brand: "FormalFit",
     price: 1299,
     compareAtPrice: 1799,
     categorySlug: "men",
@@ -171,15 +171,15 @@ const productDefs: ProductDef[] = [
     material: "Cotton Poly Blend",
     careInstructions: "Machine wash cold. Iron on medium heat.",
     description:
-      "A classic check pattern formal shirt by Peter England, designed for the modern professional. The cotton-poly blend ensures a crisp look throughout the day with minimal wrinkling. Features a regular fit collar and single-button cuffs.",
+      "A classic check pattern formal shirt by FormalFit, designed for the modern professional. The cotton-poly blend ensures a crisp look throughout the day with minimal wrinkling. Features a regular fit collar and single-button cuffs.",
     shortDescription: "Classic check formal shirt for the modern professional.",
     sizes: ["M", "L", "XL", "XXL"],
     colors: [COLORS.Blue, COLORS.White, COLORS.Grey],
     isFeatured: true,
   },
   {
-    name: "Van Heusen Slim Fit Oxford Shirt",
-    brand: "Van Heusen",
+    name: "CrestLine Slim Fit Oxford Shirt",
+    brand: "CrestLine",
     price: 1599,
     compareAtPrice: null,
     categorySlug: "men",
@@ -187,15 +187,15 @@ const productDefs: ProductDef[] = [
     material: "100% Cotton Oxford",
     careInstructions: "Machine wash cold. Hang dry. Iron on medium heat.",
     description:
-      "This Van Heusen Oxford shirt is a wardrobe essential. Crafted from fine cotton oxford fabric with a slim fit silhouette, button-down collar, and chest pocket. Perfect for smart-casual occasions, office wear, or weekend outings.",
+      "This CrestLine Oxford shirt is a wardrobe essential. Crafted from fine cotton oxford fabric with a slim fit silhouette, button-down collar, and chest pocket. Perfect for smart-casual occasions, office wear, or weekend outings.",
     shortDescription: "Slim fit Oxford shirt, a smart-casual wardrobe essential.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.LightBlue, COLORS.White, COLORS.Pink],
     isFeatured: false,
   },
   {
-    name: "Louis Philippe Linen Shirt",
-    brand: "Louis Philippe",
+    name: "ClassicLine Linen Shirt",
+    brand: "ClassicLine",
     price: 2499,
     compareAtPrice: 3299,
     categorySlug: "men",
@@ -203,7 +203,7 @@ const productDefs: ProductDef[] = [
     material: "100% Pure Linen",
     careInstructions: "Dry clean recommended. Iron while damp.",
     description:
-      "Experience effortless elegance with this premium linen shirt from Louis Philippe. The natural linen fabric is breathable and perfect for Indian summers. Features a spread collar, French placket, and a relaxed yet refined fit.",
+      "Experience effortless elegance with this premium linen shirt from ClassicLine. The natural linen fabric is breathable and perfect for Indian summers. Features a spread collar, French placket, and a relaxed yet refined fit.",
     shortDescription: "Premium linen shirt for effortless summer elegance.",
     sizes: ["M", "L", "XL", "XXL"],
     colors: [COLORS.White, COLORS.Beige, COLORS.SkyBlue],
@@ -211,8 +211,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── MEN > JEANS ─────────────────────────────────
   {
-    name: "Levi's 511 Slim Fit Jeans",
-    brand: "Levi's",
+    name: "DenimCraft 511 Slim Fit Jeans",
+    brand: "DenimCraft",
     price: 2999,
     compareAtPrice: null,
     categorySlug: "men",
@@ -220,15 +220,15 @@ const productDefs: ProductDef[] = [
     material: "98% Cotton, 2% Elastane",
     careInstructions: "Machine wash cold inside out. Do not tumble dry.",
     description:
-      "The iconic Levi's 511 sits below the waist with a slim fit from hip to ankle. Made with premium stretch denim for all-day comfort without sacrificing style. A versatile pair that works from Monday to Sunday.",
+      "The iconic DenimCraft 511 sits below the waist with a slim fit from hip to ankle. Made with premium stretch denim for all-day comfort without sacrificing style. A versatile pair that works from Monday to Sunday.",
     shortDescription: "Iconic slim fit jeans with stretch for all-day comfort.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Indigo, COLORS.Black],
     isFeatured: true,
   },
   {
-    name: "Wrangler Classic Straight Jeans",
-    brand: "Wrangler",
+    name: "RanchDenim Classic Straight Jeans",
+    brand: "RanchDenim",
     price: 2499,
     compareAtPrice: 2999,
     categorySlug: "men",
@@ -236,7 +236,7 @@ const productDefs: ProductDef[] = [
     material: "100% Cotton Denim",
     careInstructions: "Machine wash cold. Wash inside out.",
     description:
-      "Built tough for everyday wear, these Wrangler straight fit jeans feature classic five-pocket styling, a comfortable mid-rise, and durable 100% cotton denim that gets better with every wash.",
+      "Built tough for everyday wear, these RanchDenim straight fit jeans feature classic five-pocket styling, a comfortable mid-rise, and durable 100% cotton denim that gets better with every wash.",
     shortDescription: "Durable straight fit jeans for everyday wear.",
     sizes: ["M", "L", "XL", "XXL"],
     colors: [COLORS.Blue, COLORS.Charcoal, COLORS.Black],
@@ -244,8 +244,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── MEN > TROUSERS ──────────────────────────────
   {
-    name: "Park Avenue Slim Fit Chinos",
-    brand: "Park Avenue",
+    name: "EliteWear Slim Fit Chinos",
+    brand: "EliteWear",
     price: 1799,
     compareAtPrice: null,
     categorySlug: "men",
@@ -253,15 +253,15 @@ const productDefs: ProductDef[] = [
     material: "Cotton Twill",
     careInstructions: "Machine wash cold. Do not bleach.",
     description:
-      "These slim fit chinos from Park Avenue offer the perfect balance of comfort and style. Made from soft cotton twill with a hint of stretch, they transition effortlessly from office to evening plans.",
+      "These slim fit chinos from EliteWear offer the perfect balance of comfort and style. Made from soft cotton twill with a hint of stretch, they transition effortlessly from office to evening plans.",
     shortDescription: "Slim fit chinos that work from office to evening.",
     sizes: ["M", "L", "XL", "XXL"],
     colors: [COLORS.Beige, COLORS.Navy, COLORS.Olive],
     isFeatured: false,
   },
   {
-    name: "ColorPlus Casual Trousers",
-    brand: "ColorPlus",
+    name: "VividStyle Casual Trousers",
+    brand: "VividStyle",
     price: 1499,
     compareAtPrice: 1999,
     categorySlug: "men",
@@ -269,7 +269,7 @@ const productDefs: ProductDef[] = [
     material: "Cotton Stretch",
     careInstructions: "Machine wash cold. Iron on low heat.",
     description:
-      "Relaxed yet refined, these ColorPlus casual trousers are crafted from breathable cotton stretch fabric. The mid-rise, regular fit is perfect for everyday comfort with a polished look.",
+      "Relaxed yet refined, these VividStyle casual trousers are crafted from breathable cotton stretch fabric. The mid-rise, regular fit is perfect for everyday comfort with a polished look.",
     shortDescription: "Relaxed cotton stretch trousers for everyday polish.",
     sizes: ["M", "L", "XL"],
     colors: [COLORS.Brown, COLORS.Grey, COLORS.Charcoal],
@@ -277,8 +277,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── MEN > KURTAS ────────────────────────────────
   {
-    name: "FabIndia Handloom Cotton Kurta",
-    brand: "FabIndia",
+    name: "HandLoom Co Handloom Cotton Kurta",
+    brand: "HandLoom Co",
     price: 1499,
     compareAtPrice: null,
     categorySlug: "men",
@@ -286,15 +286,15 @@ const productDefs: ProductDef[] = [
     material: "100% Handloom Cotton",
     careInstructions: "Hand wash separately. Dry in shade.",
     description:
-      "This FabIndia kurta is crafted from handloom cotton by traditional Indian weavers. The natural texture, mandarin collar, and relaxed fit embody the perfect blend of tradition and contemporary style. Ideal for festivals, family gatherings, or casual ethnic wear.",
+      "This HandLoom Co kurta is crafted from handloom cotton by traditional Indian weavers. The natural texture, mandarin collar, and relaxed fit embody the perfect blend of tradition and contemporary style. Ideal for festivals, family gatherings, or casual ethnic wear.",
     shortDescription: "Handloom cotton kurta blending tradition with modern style.",
     sizes: ["M", "L", "XL", "XXL"],
     colors: [COLORS.Indigo, COLORS.Mustard, COLORS.Sage],
     isFeatured: true,
   },
   {
-    name: "Manyavar Silk Blend Kurta Set",
-    brand: "Manyavar",
+    name: "FestiveWear Silk Blend Kurta Set",
+    brand: "FestiveWear",
     price: 3999,
     compareAtPrice: 5499,
     categorySlug: "men",
@@ -302,15 +302,15 @@ const productDefs: ProductDef[] = [
     material: "Silk Blend",
     careInstructions: "Dry clean only.",
     description:
-      "Make a grand impression at any celebration with this Manyavar silk blend kurta set. Features intricate embroidery on the neckline and cuffs, paired with matching churidar pants. The rich fabric and royal design are perfect for weddings and festive occasions.",
+      "Make a grand impression at any celebration with this FestiveWear silk blend kurta set. Features intricate embroidery on the neckline and cuffs, paired with matching churidar pants. The rich fabric and royal design are perfect for weddings and festive occasions.",
     shortDescription: "Silk blend kurta set with embroidery for festive occasions.",
     sizes: ["M", "L", "XL", "XXL"],
     colors: [COLORS.Maroon, COLORS.Gold, COLORS.Cream],
     isFeatured: true,
   },
   {
-    name: "Raymond Linen Kurta",
-    brand: "Raymond",
+    name: "TailorEdge Linen Kurta",
+    brand: "TailorEdge",
     price: 2299,
     compareAtPrice: null,
     categorySlug: "men",
@@ -318,7 +318,7 @@ const productDefs: ProductDef[] = [
     material: "Pure Linen",
     careInstructions: "Dry clean recommended.",
     description:
-      "A refined linen kurta from Raymond, featuring a classic straight cut, mandarin collar, and side slits. The lightweight linen fabric is perfect for warm weather and brings effortless sophistication to any ethnic outfit.",
+      "A refined linen kurta from TailorEdge, featuring a classic straight cut, mandarin collar, and side slits. The lightweight linen fabric is perfect for warm weather and brings effortless sophistication to any ethnic outfit.",
     shortDescription: "Refined linen kurta with a classic straight cut.",
     sizes: ["M", "L", "XL"],
     colors: [COLORS.White, COLORS.Beige, COLORS.SkyBlue],
@@ -326,8 +326,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── MEN > JACKETS ───────────────────────────────
   {
-    name: "Zara Bomber Jacket",
-    brand: "Zara",
+    name: "ModaVogue Bomber Jacket",
+    brand: "ModaVogue",
     price: 3499,
     compareAtPrice: 4999,
     categorySlug: "men",
@@ -335,15 +335,15 @@ const productDefs: ProductDef[] = [
     material: "Polyester Shell, Satin Lining",
     careInstructions: "Dry clean only.",
     description:
-      "A stylish bomber jacket from Zara featuring a ribbed collar, cuffs, and hem. The sleek polyester shell with satin lining gives it a premium feel. Perfect for layering during transitional seasons or cool evenings.",
+      "A stylish bomber jacket from ModaVogue featuring a ribbed collar, cuffs, and hem. The sleek polyester shell with satin lining gives it a premium feel. Perfect for layering during transitional seasons or cool evenings.",
     shortDescription: "Sleek bomber jacket for a premium layered look.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Black, COLORS.Navy, COLORS.Olive],
     isFeatured: false,
   },
   {
-    name: "Allen Solly Lightweight Denim Jacket",
-    brand: "Allen Solly",
+    name: "UrbanThread Lightweight Denim Jacket",
+    brand: "UrbanThread",
     price: 2799,
     compareAtPrice: null,
     categorySlug: "men",
@@ -351,7 +351,7 @@ const productDefs: ProductDef[] = [
     material: "100% Cotton Denim",
     careInstructions: "Machine wash cold. Do not bleach.",
     description:
-      "A timeless denim jacket from Allen Solly. This lightweight classic features a button-front closure, chest flap pockets, and a slightly tailored fit. An essential layering piece for every man's wardrobe.",
+      "A timeless denim jacket from UrbanThread. This lightweight classic features a button-front closure, chest flap pockets, and a slightly tailored fit. An essential layering piece for every man's wardrobe.",
     shortDescription: "Timeless lightweight denim jacket for essential layering.",
     sizes: ["M", "L", "XL", "XXL"],
     colors: [COLORS.Blue, COLORS.Black],
@@ -359,8 +359,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── WOMEN > DRESSES ─────────────────────────────
   {
-    name: "AND Floral Midi Dress",
-    brand: "AND",
+    name: "ChicBlend Floral Midi Dress",
+    brand: "ChicBlend",
     price: 2199,
     compareAtPrice: 2999,
     categorySlug: "women",
@@ -368,15 +368,15 @@ const productDefs: ProductDef[] = [
     material: "Viscose Rayon",
     careInstructions: "Hand wash cold. Do not wring. Dry in shade.",
     description:
-      "A beautiful floral midi dress from AND that is perfect for brunches, daytime events, or casual outings. The viscose rayon fabric drapes elegantly, while the A-line silhouette flatters all body types. Features a V-neckline and short flutter sleeves.",
+      "A beautiful floral midi dress from ChicBlend that is perfect for brunches, daytime events, or casual outings. The viscose rayon fabric drapes elegantly, while the A-line silhouette flatters all body types. Features a V-neckline and short flutter sleeves.",
     shortDescription: "Elegant floral midi dress with A-line silhouette.",
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: [COLORS.Coral, COLORS.Navy, COLORS.Mustard],
     isFeatured: true,
   },
   {
-    name: "H&M Bodycon Ribbed Dress",
-    brand: "H&M",
+    name: "TrendSet Bodycon Ribbed Dress",
+    brand: "TrendSet",
     price: 1299,
     compareAtPrice: null,
     categorySlug: "women",
@@ -384,7 +384,7 @@ const productDefs: ProductDef[] = [
     material: "Cotton Rib Knit",
     careInstructions: "Machine wash cold. Lay flat to dry.",
     description:
-      "A figure-hugging ribbed bodycon dress from H&M. The stretchy cotton rib knit offers comfort and a flattering fit. Features a round neck and midi length. Style it with sneakers for day or heels for evening.",
+      "A figure-hugging ribbed bodycon dress from TrendSet. The stretchy cotton rib knit offers comfort and a flattering fit. Features a round neck and midi length. Style it with sneakers for day or heels for evening.",
     shortDescription: "Figure-hugging ribbed bodycon dress for day or evening.",
     sizes: ["XS", "S", "M", "L"],
     colors: [COLORS.Black, COLORS.Grey, COLORS.Olive],
@@ -392,8 +392,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── WOMEN > TOPS ────────────────────────────────
   {
-    name: "Global Desi Printed Peplum Top",
-    brand: "Global Desi",
+    name: "BohoThreads Printed Peplum Top",
+    brand: "BohoThreads",
     price: 999,
     compareAtPrice: 1499,
     categorySlug: "women",
@@ -401,15 +401,15 @@ const productDefs: ProductDef[] = [
     material: "Viscose",
     careInstructions: "Hand wash cold. Iron on low heat.",
     description:
-      "Add a pop of color to your wardrobe with this Global Desi printed peplum top. The peplum waist creates a flattering silhouette, while the vibrant print adds a playful touch. Pairs beautifully with jeans or palazzo pants.",
+      "Add a pop of color to your wardrobe with this BohoThreads printed peplum top. The peplum waist creates a flattering silhouette, while the vibrant print adds a playful touch. Pairs beautifully with jeans or palazzo pants.",
     shortDescription: "Printed peplum top with a flattering silhouette.",
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: [COLORS.Teal, COLORS.Coral, COLORS.Mustard],
     isFeatured: false,
   },
   {
-    name: "Zara Satin Blouse",
-    brand: "Zara",
+    name: "ModaVogue Satin Blouse",
+    brand: "ModaVogue",
     price: 1899,
     compareAtPrice: null,
     categorySlug: "women",
@@ -417,7 +417,7 @@ const productDefs: ProductDef[] = [
     material: "Satin",
     careInstructions: "Dry clean recommended.",
     description:
-      "Elevate your workwear with this luxurious satin blouse from Zara. Features a V-neckline, long sleeves with button cuffs, and a relaxed drape. The smooth satin fabric looks effortlessly polished with trousers or skirts.",
+      "Elevate your workwear with this luxurious satin blouse from ModaVogue. Features a V-neckline, long sleeves with button cuffs, and a relaxed drape. The smooth satin fabric looks effortlessly polished with trousers or skirts.",
     shortDescription: "Luxurious satin blouse for polished workwear.",
     sizes: ["XS", "S", "M", "L"],
     colors: [COLORS.White, COLORS.Black, COLORS.Peach],
@@ -425,8 +425,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── WOMEN > SAREES ──────────────────────────────
   {
-    name: "FabIndia Chanderi Silk Saree",
-    brand: "FabIndia",
+    name: "HandLoom Co Chanderi Silk Saree",
+    brand: "HandLoom Co",
     price: 4999,
     compareAtPrice: 6999,
     categorySlug: "women",
@@ -434,15 +434,15 @@ const productDefs: ProductDef[] = [
     material: "Chanderi Silk",
     careInstructions: "Dry clean only. Store in muslin wrap.",
     description:
-      "A gorgeous Chanderi silk saree from FabIndia, handwoven by artisans in Madhya Pradesh. The lightweight, translucent fabric features traditional butis and a rich zari border. Perfect for festivals, pujas, and elegant gatherings. Comes with an unstitched blouse piece.",
+      "A gorgeous Chanderi silk saree from HandLoom Co, handwoven by artisans in Madhya Pradesh. The lightweight, translucent fabric features traditional butis and a rich zari border. Perfect for festivals, pujas, and elegant gatherings. Comes with an unstitched blouse piece.",
     shortDescription: "Handwoven Chanderi silk saree with traditional zari border.",
     sizes: ["M"],
     colors: [COLORS.Gold, COLORS.Maroon, COLORS.Teal],
     isFeatured: true,
   },
   {
-    name: "Libas Georgette Printed Saree",
-    brand: "Libas",
+    name: "RoyalStitch Georgette Printed Saree",
+    brand: "RoyalStitch",
     price: 1999,
     compareAtPrice: 2799,
     categorySlug: "women",
@@ -450,7 +450,7 @@ const productDefs: ProductDef[] = [
     material: "Georgette",
     careInstructions: "Dry clean only.",
     description:
-      "This beautiful georgette saree from Libas features an all-over digital print that is contemporary yet timeless. The lightweight georgette drapes beautifully and is easy to manage. Includes a matching blouse piece.",
+      "This beautiful georgette saree from RoyalStitch features an all-over digital print that is contemporary yet timeless. The lightweight georgette drapes beautifully and is easy to manage. Includes a matching blouse piece.",
     shortDescription: "Lightweight georgette saree with contemporary digital print.",
     sizes: ["M"],
     colors: [COLORS.Pink, COLORS.Blue, COLORS.Green],
@@ -458,8 +458,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── WOMEN > LEHENGAS ────────────────────────────
   {
-    name: "Biba Embroidered Lehenga Choli Set",
-    brand: "Biba",
+    name: "EthnicWeave Embroidered Lehenga Choli Set",
+    brand: "EthnicWeave",
     price: 6999,
     compareAtPrice: 9999,
     categorySlug: "women",
@@ -467,7 +467,7 @@ const productDefs: ProductDef[] = [
     material: "Art Silk with Net Dupatta",
     careInstructions: "Dry clean only. Handle with care.",
     description:
-      "Turn heads at every celebration with this stunning embroidered lehenga choli set from Biba. The art silk lehenga features intricate thread work and sequin embellishments, paired with a matching choli and a sheer net dupatta with scalloped edges.",
+      "Turn heads at every celebration with this stunning embroidered lehenga choli set from EthnicWeave. The art silk lehenga features intricate thread work and sequin embellishments, paired with a matching choli and a sheer net dupatta with scalloped edges.",
     shortDescription: "Stunning embroidered lehenga set for celebrations.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Maroon, COLORS.Navy, COLORS.DarkGreen],
@@ -475,8 +475,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── WOMEN > JEANS ───────────────────────────────
   {
-    name: "Levi's High Rise Skinny Jeans",
-    brand: "Levi's",
+    name: "DenimCraft High Rise Skinny Jeans",
+    brand: "DenimCraft",
     price: 3299,
     compareAtPrice: null,
     categorySlug: "women",
@@ -484,15 +484,15 @@ const productDefs: ProductDef[] = [
     material: "Stretch Denim",
     careInstructions: "Machine wash cold. Do not tumble dry.",
     description:
-      "The Levi's High Rise Skinny is designed to flatter, hold, and lift. Made with super stretch denim that hugs your curves and stays comfortable all day. The high rise sits at the smallest part of your waist for a figure-defining look.",
+      "The DenimCraft High Rise Skinny is designed to flatter, hold, and lift. Made with super stretch denim that hugs your curves and stays comfortable all day. The high rise sits at the smallest part of your waist for a figure-defining look.",
     shortDescription: "High rise skinny jeans that flatter and hold all day.",
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: [COLORS.Indigo, COLORS.Black, COLORS.Grey],
     isFeatured: false,
   },
   {
-    name: "H&M Mom Jeans",
-    brand: "H&M",
+    name: "TrendSet Mom Jeans",
+    brand: "TrendSet",
     price: 1999,
     compareAtPrice: 2499,
     categorySlug: "women",
@@ -500,7 +500,7 @@ const productDefs: ProductDef[] = [
     material: "100% Cotton Denim",
     careInstructions: "Machine wash cold inside out.",
     description:
-      "Relaxed, high-waisted mom jeans from H&M with a tapered leg. Made from 100% cotton denim with an authentic vintage wash. Features a classic five-pocket design and zip fly. Effortlessly cool for everyday styling.",
+      "Relaxed, high-waisted mom jeans from TrendSet with a tapered leg. Made from 100% cotton denim with an authentic vintage wash. Features a classic five-pocket design and zip fly. Effortlessly cool for everyday styling.",
     shortDescription: "Relaxed high-waisted mom jeans with vintage wash.",
     sizes: ["XS", "S", "M", "L"],
     colors: [COLORS.Blue, COLORS.LightBlue],
@@ -508,8 +508,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── WOMEN > KURTIS ──────────────────────────────
   {
-    name: "Biba Embroidered Anarkali Kurti",
-    brand: "Biba",
+    name: "EthnicWeave Embroidered Anarkali Kurti",
+    brand: "EthnicWeave",
     price: 1799,
     compareAtPrice: 2499,
     categorySlug: "women",
@@ -517,15 +517,15 @@ const productDefs: ProductDef[] = [
     material: "Rayon",
     careInstructions: "Hand wash separately. Dry in shade.",
     description:
-      "A beautifully embroidered Anarkali kurti from Biba. The flared silhouette with thread embroidery on the yoke and sleeves adds a festive charm to your everyday ethnic wear. Made from soft rayon for a comfortable, flowing drape.",
+      "A beautifully embroidered Anarkali kurti from EthnicWeave. The flared silhouette with thread embroidery on the yoke and sleeves adds a festive charm to your everyday ethnic wear. Made from soft rayon for a comfortable, flowing drape.",
     shortDescription: "Embroidered Anarkali kurti with festive charm.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Maroon, COLORS.Teal, COLORS.Coral],
     isFeatured: false,
   },
   {
-    name: "W Printed Straight Kurti",
-    brand: "W",
+    name: "StyleCraft Printed Straight Kurti",
+    brand: "StyleCraft",
     price: 1299,
     compareAtPrice: null,
     categorySlug: "women",
@@ -533,15 +533,15 @@ const productDefs: ProductDef[] = [
     material: "Cotton",
     careInstructions: "Machine wash cold. Iron on medium heat.",
     description:
-      "A versatile printed kurti from W with a straight-cut silhouette. The contemporary print and comfortable cotton fabric make it perfect for daily wear. Features a round neck, three-quarter sleeves, and side slits.",
+      "A versatile printed kurti from StyleCraft with a straight-cut silhouette. The contemporary print and comfortable cotton fabric make it perfect for daily wear. Features a round neck, three-quarter sleeves, and side slits.",
     shortDescription: "Versatile printed cotton kurti for daily wear.",
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: [COLORS.Blue, COLORS.Mustard, COLORS.Rust],
     isFeatured: false,
   },
   {
-    name: "Aurelia Chanderi Kurti",
-    brand: "Aurelia",
+    name: "SilkRoute Chanderi Kurti",
+    brand: "SilkRoute",
     price: 1599,
     compareAtPrice: 2199,
     categorySlug: "women",
@@ -549,7 +549,7 @@ const productDefs: ProductDef[] = [
     material: "Chanderi Cotton",
     careInstructions: "Hand wash separately. Dry in shade.",
     description:
-      "This Aurelia Chanderi kurti features a beautiful self-woven pattern in lightweight Chanderi cotton. The V-neck, three-quarter sleeves, and A-line cut create an elegant look perfect for office, lunch dates, or festive wear.",
+      "This SilkRoute Chanderi kurti features a beautiful self-woven pattern in lightweight Chanderi cotton. The V-neck, three-quarter sleeves, and A-line cut create an elegant look perfect for office, lunch dates, or festive wear.",
     shortDescription: "Chanderi cotton kurti with elegant A-line cut.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Lavender, COLORS.Peach, COLORS.SkyBlue],
@@ -557,8 +557,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── KIDS > BOYS ─────────────────────────────────
   {
-    name: "Allen Solly Junior Boys Polo T-Shirt",
-    brand: "Allen Solly",
+    name: "UrbanThread Junior Boys Polo T-Shirt",
+    brand: "UrbanThread",
     price: 599,
     compareAtPrice: 799,
     categorySlug: "kids",
@@ -566,15 +566,15 @@ const productDefs: ProductDef[] = [
     material: "Cotton Pique",
     careInstructions: "Machine wash cold. Do not bleach.",
     description:
-      "A classic polo t-shirt for boys from Allen Solly Junior. Made from soft cotton pique fabric with the brand's signature logo embroidered on the chest. Perfect for school, play, or casual outings.",
+      "A classic polo t-shirt for boys from UrbanThread Junior. Made from soft cotton pique fabric with the brand's signature logo embroidered on the chest. Perfect for school, play, or casual outings.",
     shortDescription: "Classic cotton polo tee for boys.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Navy, COLORS.Red, COLORS.White],
     isFeatured: false,
   },
   {
-    name: "UCB Kids Cargo Shorts",
-    brand: "UCB",
+    name: "UrbanCasual Kids Cargo Shorts",
+    brand: "UrbanCasual",
     price: 699,
     compareAtPrice: null,
     categorySlug: "kids",
@@ -582,15 +582,15 @@ const productDefs: ProductDef[] = [
     material: "100% Cotton Twill",
     careInstructions: "Machine wash cold.",
     description:
-      "Durable and fun, these cargo shorts from UCB Kids feature multiple pockets and an elastic waistband for comfort. Made from sturdy cotton twill, perfect for outdoor adventures and playtime.",
+      "Durable and fun, these cargo shorts from UrbanCasual Kids feature multiple pockets and an elastic waistband for comfort. Made from sturdy cotton twill, perfect for outdoor adventures and playtime.",
     shortDescription: "Durable cotton cargo shorts for active kids.",
     sizes: ["S", "M", "L"],
     colors: [COLORS.Olive, COLORS.Navy, COLORS.Beige],
     isFeatured: false,
   },
   {
-    name: "Manyavar Boys Kurta Pajama Set",
-    brand: "Manyavar",
+    name: "FestiveWear Boys Kurta Pajama Set",
+    brand: "FestiveWear",
     price: 1999,
     compareAtPrice: 2799,
     categorySlug: "kids",
@@ -598,7 +598,7 @@ const productDefs: ProductDef[] = [
     material: "Silk Blend",
     careInstructions: "Dry clean only.",
     description:
-      "Dress your little one in style with this Manyavar kurta pajama set. Features delicate embroidery on the neckline and a matching churidar pajama. Made from soft silk blend fabric that is gentle on young skin.",
+      "Dress your little one in style with this FestiveWear kurta pajama set. Features delicate embroidery on the neckline and a matching churidar pajama. Made from soft silk blend fabric that is gentle on young skin.",
     shortDescription: "Embroidered kurta pajama set for festive occasions.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Cream, COLORS.Gold, COLORS.Maroon],
@@ -606,8 +606,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── KIDS > GIRLS ────────────────────────────────
   {
-    name: "Global Desi Girls Printed Frock",
-    brand: "Global Desi",
+    name: "BohoThreads Girls Printed Frock",
+    brand: "BohoThreads",
     price: 899,
     compareAtPrice: 1299,
     categorySlug: "kids",
@@ -615,15 +615,15 @@ const productDefs: ProductDef[] = [
     material: "Cotton",
     careInstructions: "Machine wash cold. Gentle cycle.",
     description:
-      "A playful printed frock from Global Desi for girls. Features a colorful all-over print, puff sleeves, and a flared skirt. Made from soft cotton for all-day comfort. Perfect for birthdays, outings, and everyday wear.",
+      "A playful printed frock from BohoThreads for girls. Features a colorful all-over print, puff sleeves, and a flared skirt. Made from soft cotton for all-day comfort. Perfect for birthdays, outings, and everyday wear.",
     shortDescription: "Playful printed cotton frock for girls.",
     sizes: ["S", "M", "L"],
     colors: [COLORS.Pink, COLORS.Yellow, COLORS.Coral],
     isFeatured: false,
   },
   {
-    name: "Biba Girls Lehenga Choli Set",
-    brand: "Biba",
+    name: "EthnicWeave Girls Lehenga Choli Set",
+    brand: "EthnicWeave",
     price: 2499,
     compareAtPrice: 3499,
     categorySlug: "kids",
@@ -631,7 +631,7 @@ const productDefs: ProductDef[] = [
     material: "Art Silk",
     careInstructions: "Dry clean only.",
     description:
-      "A miniature version of ethnic elegance. This Biba girls lehenga choli set features mirror work and thread embroidery, with a matching dupatta. Perfect for weddings, Diwali, and festive celebrations.",
+      "A miniature version of ethnic elegance. This EthnicWeave girls lehenga choli set features mirror work and thread embroidery, with a matching dupatta. Perfect for weddings, Diwali, and festive celebrations.",
     shortDescription: "Embroidered lehenga choli set for festive celebrations.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Pink, COLORS.Maroon, COLORS.Teal],
@@ -639,8 +639,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── ACCESSORIES > WATCHES ───────────────────────
   {
-    name: "Titan Classique Analog Watch",
-    brand: "Titan",
+    name: "TimeCraft Classique Analog Watch",
+    brand: "TimeCraft",
     price: 4999,
     compareAtPrice: 5999,
     categorySlug: "accessories",
@@ -648,15 +648,15 @@ const productDefs: ProductDef[] = [
     material: "Stainless Steel Case, Leather Strap",
     careInstructions: "Avoid water exposure. Wipe with soft cloth.",
     description:
-      "A timeless analog watch from Titan's Classique collection. Features a clean white dial with Roman numerals, a stainless steel case, and a genuine leather strap. Water resistant up to 30 meters. A perfect blend of elegance and functionality.",
+      "A timeless analog watch from TimeCraft's Classique collection. Features a clean white dial with Roman numerals, a stainless steel case, and a genuine leather strap. Water resistant up to 30 meters. A perfect blend of elegance and functionality.",
     shortDescription: "Timeless analog watch with leather strap.",
     sizes: ["M"],
     colors: [COLORS.Brown, COLORS.Black],
     isFeatured: false,
   },
   {
-    name: "Fastrack Casual Analog Watch",
-    brand: "Fastrack",
+    name: "UrbanPulse Casual Analog Watch",
+    brand: "UrbanPulse",
     price: 1999,
     compareAtPrice: null,
     categorySlug: "accessories",
@@ -664,7 +664,7 @@ const productDefs: ProductDef[] = [
     material: "Stainless Steel, Silicone Strap",
     careInstructions: "Avoid extreme heat. Clean with damp cloth.",
     description:
-      "A trendy casual watch from Fastrack with a bold dial and comfortable silicone strap. Perfect for everyday wear with its durable build, splash resistance, and youthful design.",
+      "A trendy casual watch from UrbanPulse with a bold dial and comfortable silicone strap. Perfect for everyday wear with its durable build, splash resistance, and youthful design.",
     shortDescription: "Trendy casual watch with bold design.",
     sizes: ["M"],
     colors: [COLORS.Black, COLORS.Navy, COLORS.Red],
@@ -672,8 +672,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── ACCESSORIES > BAGS ──────────────────────────
   {
-    name: "Baggit Structured Tote Bag",
-    brand: "Baggit",
+    name: "CarryAll Structured Tote Bag",
+    brand: "CarryAll",
     price: 2499,
     compareAtPrice: 3299,
     categorySlug: "accessories",
@@ -681,15 +681,15 @@ const productDefs: ProductDef[] = [
     material: "Faux Leather",
     careInstructions: "Wipe clean with damp cloth. Avoid direct sunlight.",
     description:
-      "A sleek structured tote bag from Baggit, perfect for work and everyday use. Features multiple compartments, a zip closure, and an inner laptop sleeve. Made from premium faux leather with a luxe finish.",
+      "A sleek structured tote bag from CarryAll, perfect for work and everyday use. Features multiple compartments, a zip closure, and an inner laptop sleeve. Made from premium faux leather with a luxe finish.",
     shortDescription: "Structured faux leather tote for work and everyday use.",
     sizes: ["M"],
     colors: [COLORS.Black, COLORS.Tan, COLORS.Maroon],
     isFeatured: false,
   },
   {
-    name: "Lavie Sling Bag",
-    brand: "Lavie",
+    name: "VelvetEdge Sling Bag",
+    brand: "VelvetEdge",
     price: 1299,
     compareAtPrice: null,
     categorySlug: "accessories",
@@ -697,7 +697,7 @@ const productDefs: ProductDef[] = [
     material: "PU Leather",
     careInstructions: "Wipe with dry cloth. Avoid water.",
     description:
-      "A compact and stylish sling bag from Lavie. Features an adjustable strap, magnetic snap closure, and organized interior compartments. Perfect for carrying your essentials while running errands or going out.",
+      "A compact and stylish sling bag from VelvetEdge. Features an adjustable strap, magnetic snap closure, and organized interior compartments. Perfect for carrying your essentials while running errands or going out.",
     shortDescription: "Compact and stylish sling bag for everyday essentials.",
     sizes: ["M"],
     colors: [COLORS.Pink, COLORS.Black, COLORS.Cream],
@@ -705,8 +705,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── ACCESSORIES > BELTS ─────────────────────────
   {
-    name: "Park Avenue Genuine Leather Belt",
-    brand: "Park Avenue",
+    name: "EliteWear Genuine Leather Belt",
+    brand: "EliteWear",
     price: 999,
     compareAtPrice: 1499,
     categorySlug: "accessories",
@@ -714,7 +714,7 @@ const productDefs: ProductDef[] = [
     material: "Genuine Leather",
     careInstructions: "Store in dust bag. Avoid moisture.",
     description:
-      "A classic genuine leather belt from Park Avenue with a polished metal buckle. The 35mm width is versatile enough for formal and casual wear. Features a smooth finish and precise stitching along the edges.",
+      "A classic genuine leather belt from EliteWear with a polished metal buckle. The 35mm width is versatile enough for formal and casual wear. Features a smooth finish and precise stitching along the edges.",
     shortDescription: "Classic genuine leather belt with polished metal buckle.",
     sizes: ["M", "L", "XL"],
     colors: [COLORS.Black, COLORS.Brown],
@@ -722,8 +722,8 @@ const productDefs: ProductDef[] = [
   },
   // ─── ACCESSORIES > SUNGLASSES ────────────────────
   {
-    name: "Ray-Ban Aviator Sunglasses",
-    brand: "Ray-Ban",
+    name: "OpticEdge Aviator Sunglasses",
+    brand: "OpticEdge",
     price: 7999,
     compareAtPrice: 9999,
     categorySlug: "accessories",
@@ -731,16 +731,16 @@ const productDefs: ProductDef[] = [
     material: "Metal Frame, Glass Lenses",
     careInstructions: "Clean with microfiber cloth. Store in case.",
     description:
-      "The iconic Ray-Ban Aviator with classic teardrop lenses and metal frame. Features 100% UV protection glass lenses and adjustable nose pads for a comfortable fit. A timeless accessory that complements any outfit.",
-    shortDescription: "Iconic aviator sunglasses with 100% UV protection.",
+      "Classic aviator sunglasses from OpticEdge with teardrop lenses and metal frame. Features 100% UV protection glass lenses and adjustable nose pads for a comfortable fit. A timeless accessory that complements any outfit.",
+    shortDescription: "Classic aviator sunglasses with 100% UV protection.",
     sizes: ["M"],
     colors: [COLORS.Gold, COLORS.Silver, COLORS.Black],
     isFeatured: false,
   },
   // ─── EXTRA PRODUCTS TO REACH 40+ ─────────────────
   {
-    name: "Peter England Polo T-Shirt",
-    brand: "Peter England",
+    name: "FormalFit Polo T-Shirt",
+    brand: "FormalFit",
     price: 899,
     compareAtPrice: null,
     categorySlug: "men",
@@ -748,15 +748,15 @@ const productDefs: ProductDef[] = [
     material: "Cotton Pique",
     careInstructions: "Machine wash cold.",
     description:
-      "A crisp polo t-shirt from Peter England in premium cotton pique. Features the brand's embroidered logo, ribbed collar and cuffs, and a two-button placket. A smart-casual staple.",
+      "A crisp polo t-shirt from FormalFit in premium cotton pique. Features the brand's embroidered logo, ribbed collar and cuffs, and a two-button placket. A smart-casual staple.",
     shortDescription: "Crisp cotton polo tee, a smart-casual staple.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Navy, COLORS.White, COLORS.Red],
     isFeatured: false,
   },
   {
-    name: "Raymond Formal Trousers",
-    brand: "Raymond",
+    name: "TailorEdge Formal Trousers",
+    brand: "TailorEdge",
     price: 2299,
     compareAtPrice: 2999,
     categorySlug: "men",
@@ -764,15 +764,15 @@ const productDefs: ProductDef[] = [
     material: "Wool Blend",
     careInstructions: "Dry clean only.",
     description:
-      "Premium formal trousers from Raymond crafted in a fine wool blend. Features a flat front, medium rise, and a slim fit silhouette. The wrinkle-resistant fabric ensures a sharp look from morning meetings to evening events.",
+      "Premium formal trousers from TailorEdge crafted in a fine wool blend. Features a flat front, medium rise, and a slim fit silhouette. The wrinkle-resistant fabric ensures a sharp look from morning meetings to evening events.",
     shortDescription: "Premium wool blend formal trousers with slim fit.",
     sizes: ["M", "L", "XL", "XXL"],
     colors: [COLORS.Charcoal, COLORS.Navy, COLORS.Black],
     isFeatured: false,
   },
   {
-    name: "Aurelia Printed A-Line Kurti",
-    brand: "Aurelia",
+    name: "SilkRoute Printed A-Line Kurti",
+    brand: "SilkRoute",
     price: 999,
     compareAtPrice: 1399,
     categorySlug: "women",
@@ -780,15 +780,15 @@ const productDefs: ProductDef[] = [
     material: "Cotton",
     careInstructions: "Machine wash cold. Iron on medium heat.",
     description:
-      "A cheerful printed A-line kurti from Aurelia in soft cotton. Features mandarin collar, three-quarter sleeves, and a relaxed fit that works for office, college, or casual outings. Pair with palazzos or churidars.",
+      "A cheerful printed A-line kurti from SilkRoute in soft cotton. Features mandarin collar, three-quarter sleeves, and a relaxed fit that works for office, college, or casual outings. Pair with palazzos or churidars.",
     shortDescription: "Cheerful printed A-line kurti for versatile styling.",
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: [COLORS.Yellow, COLORS.Blue, COLORS.Green],
     isFeatured: false,
   },
   {
-    name: "Libas Embroidered Kurti Pant Set",
-    brand: "Libas",
+    name: "RoyalStitch Embroidered Kurti Pant Set",
+    brand: "RoyalStitch",
     price: 2199,
     compareAtPrice: 2999,
     categorySlug: "women",
@@ -796,15 +796,15 @@ const productDefs: ProductDef[] = [
     material: "Rayon",
     careInstructions: "Hand wash separately. Dry in shade.",
     description:
-      "An elegant embroidered kurti and pant set from Libas. Features delicate thread embroidery on the yoke, straight-cut kurta, and matching ankle-length pants. Perfect for office ethnic days and festive wear.",
+      "An elegant embroidered kurti and pant set from RoyalStitch. Features delicate thread embroidery on the yoke, straight-cut kurta, and matching ankle-length pants. Perfect for office ethnic days and festive wear.",
     shortDescription: "Embroidered kurti pant set for elegant ethnic wear.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Teal, COLORS.Wine, COLORS.Mustard],
     isFeatured: false,
   },
   {
-    name: "Van Heusen Woman Formal Blazer",
-    brand: "Van Heusen",
+    name: "CrestLine Woman Formal Blazer",
+    brand: "CrestLine",
     price: 3499,
     compareAtPrice: 4499,
     categorySlug: "women",
@@ -812,15 +812,15 @@ const productDefs: ProductDef[] = [
     material: "Polyester Blend",
     careInstructions: "Dry clean only.",
     description:
-      "A tailored single-breasted blazer from Van Heusen Woman. Features notched lapels, padded shoulders, and functional pockets. The structured fit and premium fabric make it a power dressing essential.",
+      "A tailored single-breasted blazer from CrestLine Woman. Features notched lapels, padded shoulders, and functional pockets. The structured fit and premium fabric make it a power dressing essential.",
     shortDescription: "Tailored single-breasted blazer for power dressing.",
     sizes: ["S", "M", "L", "XL"],
     colors: [COLORS.Black, COLORS.Navy, COLORS.Grey],
     isFeatured: false,
   },
   {
-    name: "FabIndia Block Print Cotton Top",
-    brand: "FabIndia",
+    name: "HandLoom Co Block Print Cotton Top",
+    brand: "HandLoom Co",
     price: 1199,
     compareAtPrice: null,
     categorySlug: "women",
@@ -828,7 +828,7 @@ const productDefs: ProductDef[] = [
     material: "Block Printed Cotton",
     careInstructions: "Hand wash separately. Dry in shade.",
     description:
-      "A hand block-printed cotton top from FabIndia, crafted by artisans in Jaipur. The natural dyes and traditional prints give each piece a unique character. Features a boat neck and three-quarter sleeves.",
+      "A hand block-printed cotton top from HandLoom Co, crafted by artisans in Jaipur. The natural dyes and traditional prints give each piece a unique character. Features a boat neck and three-quarter sleeves.",
     shortDescription: "Hand block-printed cotton top with artisan charm.",
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: [COLORS.Indigo, COLORS.Rust, COLORS.Sage],
@@ -908,38 +908,38 @@ async function seed() {
   const admin = await User.create({
     email: "admin@clothstore.com",
     password: adminPwd,
-    firstName: "Priya",
-    lastName: "Sharma",
+    firstName: "Meera",
+    lastName: "Kapoor",
     role: "ADMIN",
     emailVerified: true,
     phone: "+91 9000000000",
   });
 
   const rahul = await User.create({
-    email: "rahul.kumar@gmail.com",
+    email: "deepak.menon@example.com",
     password: custPwd,
-    firstName: "Rahul",
-    lastName: "Kumar",
+    firstName: "Deepak",
+    lastName: "Menon",
     role: "CUSTOMER",
     emailVerified: true,
     phone: "+91 9876543210",
   });
 
   const anita = await User.create({
-    email: "anita.patel@gmail.com",
+    email: "sunita.reddy@example.com",
     password: custPwd,
-    firstName: "Anita",
-    lastName: "Patel",
+    firstName: "Sunita",
+    lastName: "Reddy",
     role: "CUSTOMER",
     emailVerified: true,
     phone: "+91 9876543211",
   });
 
   const vikram = await User.create({
-    email: "vikram.singh@gmail.com",
+    email: "harish.nair@example.com",
     password: custPwd,
-    firstName: "Vikram",
-    lastName: "Singh",
+    firstName: "Harish",
+    lastName: "Nair",
     role: "CUSTOMER",
     emailVerified: true,
     phone: "+91 9876543212",
@@ -954,22 +954,22 @@ async function seed() {
     {
       userId: rahul._id,
       addresses: [
-        { fullName: "Rahul Kumar", phone: "+91 9876543210", addressLine1: "42, Lotus Apartments", addressLine2: "Andheri West", city: "Mumbai", state: "Maharashtra", pincode: "400058", type: "HOME" as const, isDefault: true },
-        { fullName: "Rahul Kumar", phone: "+91 9876543210", addressLine1: "Tower B, 15th Floor, Maker Maxity", addressLine2: "BKC, Bandra East", city: "Mumbai", state: "Maharashtra", pincode: "400051", type: "WORK" as const, isDefault: false },
+        { fullName: "Deepak Menon", phone: "+91 9876543210", addressLine1: "42, Lotus Apartments", addressLine2: "Andheri West", city: "Mumbai", state: "Maharashtra", pincode: "400058", type: "HOME" as const, isDefault: true },
+        { fullName: "Deepak Menon", phone: "+91 9876543210", addressLine1: "Tower B, 15th Floor, Horizon Tower", addressLine2: "BKC, Bandra East", city: "Mumbai", state: "Maharashtra", pincode: "400051", type: "WORK" as const, isDefault: false },
       ],
     },
     {
       userId: anita._id,
       addresses: [
-        { fullName: "Anita Patel", phone: "+91 9876543211", addressLine1: "D-12, Saket Residency", addressLine2: "Saket", city: "New Delhi", state: "Delhi", pincode: "110017", type: "HOME" as const, isDefault: true },
-        { fullName: "Anita Patel", phone: "+91 9876543211", addressLine1: "A-62, Tech Park", addressLine2: "Sector 62", city: "Noida", state: "Uttar Pradesh", pincode: "201309", type: "WORK" as const, isDefault: false },
+        { fullName: "Sunita Reddy", phone: "+91 9876543211", addressLine1: "D-12, Saket Residency", addressLine2: "Saket", city: "New Delhi", state: "Delhi", pincode: "110017", type: "HOME" as const, isDefault: true },
+        { fullName: "Sunita Reddy", phone: "+91 9876543211", addressLine1: "A-62, Tech Park", addressLine2: "Sector 62", city: "Noida", state: "Uttar Pradesh", pincode: "201309", type: "WORK" as const, isDefault: false },
       ],
     },
     {
       userId: vikram._id,
       addresses: [
-        { fullName: "Vikram Singh", phone: "+91 9876543212", addressLine1: "78, 5th Cross, 6th Block", addressLine2: "Koramangala", city: "Bangalore", state: "Karnataka", pincode: "560034", type: "HOME" as const, isDefault: true },
-        { fullName: "Vikram Singh", phone: "+91 9876543212", addressLine1: "WeWork Galaxy, Residency Road", addressLine2: "Whitefield", city: "Bangalore", state: "Karnataka", pincode: "560066", type: "WORK" as const, isDefault: false },
+        { fullName: "Harish Nair", phone: "+91 9876543212", addressLine1: "78, 5th Cross, 6th Block", addressLine2: "Koramangala", city: "Bangalore", state: "Karnataka", pincode: "560034", type: "HOME" as const, isDefault: true },
+        { fullName: "Harish Nair", phone: "+91 9876543212", addressLine1: "CoWork Hub, Residency Road", addressLine2: "Whitefield", city: "Bangalore", state: "Karnataka", pincode: "560066", type: "WORK" as const, isDefault: false },
       ],
     },
   ];
