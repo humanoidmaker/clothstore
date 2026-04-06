@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 26 31 54;
+    --color-accent: 200 169 110;
+    --color-background: 255 255 255;
+    --color-foreground: 26 31 54;
+    --color-muted: 243 244 246;
+    --color-muted-foreground: 107 114 128;
+    --color-border: 229 231 235;
+    --color-ring: 200 169 110;
+    --color-destructive: 239 68 68;
+    --radius: 0.5rem;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-primary antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-white transition-all duration-200 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-accent {
+    @apply inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-primary transition-all duration-200 hover:bg-accent-dark focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-lg border-2 border-primary bg-transparent px-6 py-3 text-sm font-semibold text-primary transition-all duration-200 hover:bg-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-lg bg-transparent px-4 py-2 text-sm font-medium text-primary transition-all duration-200 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 active:scale-[0.98];
+  }
+
+  .input-base {
+    @apply w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-sm text-primary placeholder-gray-400 transition-all duration-200 focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20;
+  }
+
+  .card {
+    @apply rounded-xl border border-gray-100 bg-white shadow-sm transition-all duration-200 hover:shadow-md;
+  }
+
+  .section-heading {
+    @apply font-display text-2xl font-bold text-primary sm:text-3xl lg:text-4xl;
+  }
+
+  .section-subheading {
+    @apply mt-2 text-base text-gray-500 sm:text-lg;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+
+  .badge-accent {
+    @apply badge bg-accent/10 text-accent-dark;
+  }
+
+  .badge-success {
+    @apply badge bg-green-50 text-green-700;
+  }
+
+  .badge-warning {
+    @apply badge bg-yellow-50 text-yellow-700;
+  }
+
+  .badge-error {
+    @apply badge bg-red-50 text-red-700;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c8a96e80;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c8a96e;
+}
+
+/* Skeleton animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e0e0e0 50%,
+    #f0f0f0 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}

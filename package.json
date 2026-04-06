@@ -1,0 +1,17 @@
+{
+  "name": "clothstore",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready clothing e-commerce platform",
+  "scripts": {
+    "setup": "npm install && cd server && npm install && cd ../client && npm install && cd .. && npm run db:seed",
+    "dev": "concurrently -n server,client -c blue,green \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "build": "cd server && npm run build && cd ../client && npm run build",
+    "db:seed": "cd server && npx tsx src/seed.ts"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
