@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  backend:
+    build: ./server
+    ports: ["5000:5000"]
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/clothstore
+      - JWT_ACCESS_SECRET=change-in-production
+      - JWT_REFRESH_SECRET=change-in-production
+      - NODE_ENV=production
+    depends_on: [mongo]
+    restart: unless-stopped
+
+  frontend:
+    build: ./client
+    ports: ["5173:5173"]
+    depends_on: [backend]
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:7
+    ports: ["27017:27017"]
+    volumes: [mongo_data:/data/db]
+    restart: unless-stopped
+
+volumes:
+  mongo_data:
